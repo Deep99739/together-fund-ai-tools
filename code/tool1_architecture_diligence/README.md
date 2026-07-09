@@ -2,6 +2,8 @@
 
 Local AI tool for reviewing startup architecture notes and identifying technical depth, defensibility signals, and wrapper-risk patterns.
 
+Live demo: https://tool1-architecture-diligence.vercel.app/
+
 ## Features
 
 - Architecture document ingestion

@@ -2,6 +2,8 @@
 
 Local AI tool for routing founder requests to the best-fit experts in a modeled operator network.
 
+Live demo: https://expert-router.vercel.app/
+
 ## Features
 
 - Founder-request intake

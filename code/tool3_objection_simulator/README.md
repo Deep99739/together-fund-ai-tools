@@ -2,6 +2,8 @@
 
 Local AI role-play tool for practicing enterprise buyer conversations and scoring founder responses against deal-stage and objection-handling criteria.
 
+Live demo: https://objection-simulator-tan.vercel.app/
+
 ## Features
 
 - Buyer persona selection

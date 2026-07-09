@@ -4,9 +4,9 @@ Three local AI tools built with FastAPI, React, TypeScript, and Vite.
 
 ## Tools
 
-- `code/tool1_architecture_diligence` — reviews startup architecture notes, scores technical depth, and flags wrapper-risk patterns.
-- `code/tool2_expert_router` — routes founder requests to relevant experts from a modeled operator network.
-- `code/tool3_objection_simulator` — simulates enterprise buyer conversations and scores founder responses.
+- `code/tool1_architecture_diligence` — reviews startup architecture notes, scores technical depth, and flags wrapper-risk patterns. [Live demo](https://tool1-architecture-diligence.vercel.app/)
+- `code/tool2_expert_router` — routes founder requests to relevant experts from a modeled operator network. [Live demo](https://expert-router.vercel.app/)
+- `code/tool3_objection_simulator` — simulates enterprise buyer conversations and scores founder responses. [Live demo](https://objection-simulator-tan.vercel.app/)
 
 Each tool has its own backend, frontend, and README.
 
