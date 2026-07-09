@@ -1,0 +1,29 @@
+# Assignment / Brainstorming Docs to Ignore
+handoff.md
+Technical_Assignment.md
+idea_selection_analysis.md
+AI Tool Ideas For VC.md
+AI Project Ideas for VC.md
+final_brutalhonest_review.md
+tool2_brutalhonest_review.md
+tool1_brutalhonest_review.md
+ideas.md
+"ideas.md "
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Environment Variables
+.env
+.env.local
+
+# OS
+.DS_Store

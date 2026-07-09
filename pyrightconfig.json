@@ -1,0 +1,8 @@
+{
+  "extraPaths": [
+    "code/shared",
+    "code/tool1_architecture_diligence/backend",
+    "code/tool2_expert_router/backend",
+    "code/tool3_objection_simulator/backend"
+  ]
+}
