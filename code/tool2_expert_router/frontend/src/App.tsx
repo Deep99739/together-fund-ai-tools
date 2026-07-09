@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState, type ReactNode } from 'react'
 import './App.css'
 
-const API_BASE = 'http://localhost:8001'
+const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:8001'
 
 interface ReasoningStep {
   step_number: number

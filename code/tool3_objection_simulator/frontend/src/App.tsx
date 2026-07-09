@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import './App.css'
 
-const API_BASE = 'http://localhost:8002'
+const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:8002'
 
 type Difficulty = 'friendly' | 'skeptical' | 'hostile_procurement'
 type SpeechRecognitionInstance = {

@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: tool1-backend
+    env: python
+    buildCommand: "cd code/tool1_architecture_diligence/backend && pip install -r requirements.txt"
+    startCommand: "cd code/tool1_architecture_diligence/backend && uvicorn server:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+
+  - type: web
+    name: tool2-backend
+    env: python
+    buildCommand: "cd code/tool2_expert_router/backend && pip install -r requirements.txt"
+    startCommand: "cd code/tool2_expert_router/backend && uvicorn server:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+
+  - type: web
+    name: tool3-backend
+    env: python
+    buildCommand: "cd code/tool3_objection_simulator/backend && pip install -r requirements.txt"
+    startCommand: "cd code/tool3_objection_simulator/backend && uvicorn server:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
